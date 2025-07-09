@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using javascript - Easy Tutorials</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="calculator">
+        <form>
+            <div class="forklaring_over">
+                <label for="Q_forklaring" class="input_label">Q<br />(W)</label><br> 
+                <label for="Under er " class="input_label">Luftmengde<br />(Kubikk per time)</label><br>
+            </div>
+            <div class="display_inputs">
+                <input type="text" name="Q" class="input_text">
+                <input type="text" name="kubikk_per_time" class="input_text">
+            </div>
+            <div class="equal">
+                <input type="button" value="=" onclick="display.value = eval(display.value)" 
+                class="equal">
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
