@@ -10,6 +10,7 @@
     height: 100vh;
     background: #e3f9ff;
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -54,11 +55,17 @@
 }
 
 
+=======
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 .calculator{
     background: #3a4452;
     padding: 20px;
     border-radius: 10px;
 }
+<<<<<<< HEAD
 .calculator form label{
     border: 0;
     outline: 0;
@@ -71,6 +78,9 @@
     cursor: pointer;
     margin: 10px;
 }
+=======
+
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 .calculator form input{
     border: 0;
     outline: 0;
@@ -85,11 +95,28 @@
     margin: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.calculator form label{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 form .display_inputs{
     display: flex;
     margin: 20px 10px;
     height: 60px;
 }
+<<<<<<< HEAD
 
 form .forklaring_over_konstanter{
     display: flex;
@@ -100,12 +127,15 @@ form .forklaring_over_konstanter{
     height: 30px;
 }
 
+=======
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 form .forklaring_over{
     display: flex;
     margin: 20px 10px;
     height: 30px;
 }
 
+<<<<<<< HEAD
 
 form input.equal{
     width: 50px;
@@ -120,20 +150,35 @@ form .display_divide{
 form label.divide_sign{
     width: 20px;
     text-align: center;
+=======
+form .equal{
+    display: flex;
+    margin: 20px 10px;
+}
+
+form input.equal{
+    width: 150px;
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 }
 
 form input.input_text{
     text-align: center;
+<<<<<<< HEAD
     align-items: center;
 }
 
 
+=======
+}
+
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 form label.input_label{
   display: flex;
   font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   height: 100%;
+<<<<<<< HEAD
 }
 
 form .equal{
@@ -151,4 +196,6 @@ form label.delT_label{
     align-items: center;
     height: 100%;
     margin: 30px;
+=======
+>>>>>>> c730f8a86e12e9a799306d9958c378a2dfecf0b4
 }
