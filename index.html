@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=0.1, width=device-width">
+    <title>Calculator using javascript - Easy Tutorials</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+
+<script src="utregning.js" defer></script>
+
+<div class="container">
+    <div class="konstanter">
+        <form>
+            <div class="forklaring_over_konstanter">
+                <label for="rho_forklaring" class="input_label">rho (ρ) = </label>
+                <input id="rho_input" type="text" name="rho" value="1.2" class="input_text"> 
+                <label for="rho_forklaring" class="input_label">Specific heat<br /> capacity (Cp) = </label><br>
+                <input id="cp_input" type="text" name="Cp" value="1.005" class="input_text"> 
+            </div>
+        </form>
+    </div>
+    <div class="calculator">
+        <form>
+            <div class="forklaring_over">
+                <label for="Q_forklaring" class="input_label">Q<br />(kW)</label><br> 
+                <label for="Under er " class="input_label">Luftmengde<br />(Kubikk per time)</label><br>
+            </div>
+            <div class="display_inputs">
+                <input id="Q_input" type="text" name="Q" class="input_text">
+                <input id="kubikk_input" type="text" name="kubikk_per_time" class="input_text">
+            </div>
+            <div class="equal">
+                <label for="del_t" class="delT_label">ΔT</label>
+                <input type="button" value="=" onclick="resultat_one()" class="equal">
+                <input id="result" type="text" name="kubikk_per_time" class="input_text"> 
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

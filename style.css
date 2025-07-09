@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calculator_constants{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.konstanter{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.konstanter form input{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(88, 73, 73, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fbfbfb;
+    font-size: 20px;
+    color: #0c0c0c;
+    cursor: pointer;
+    margin: -10px;
+}
+.konstanter form label{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.calculator{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form label{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(88, 73, 73, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #fbfbfb;
+    font-size: 20px;
+    color: #0c0c0c;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display_inputs{
+    display: flex;
+    margin: 20px 10px;
+    height: 60px;
+}
+
+form .forklaring_over_konstanter{
+    display: flex;
+    flex-wrap: wrap;
+
+    display: flex;
+    margin: 20px 10px;
+    height: 30px;
+}
+
+form .forklaring_over{
+    display: flex;
+    margin: 20px 10px;
+    height: 30px;
+}
+
+
+form input.equal{
+    width: 50px;
+}
+
+form .display_divide{
+    display: flex;
+    margin: 15px 1px;
+    height: 30px;
+    
+}
+form label.divide_sign{
+    width: 20px;
+    text-align: center;
+}
+
+form input.input_text{
+    text-align: center;
+    align-items: center;
+}
+
+
+form label.input_label{
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form .equal{
+    display: flex;
+    margin: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+form label.delT_label{
+    width: 90px;
+    height: 60px;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 30px;
+}
